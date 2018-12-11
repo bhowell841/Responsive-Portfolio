@@ -1,0 +1,147 @@
+/* CSS for the Header, H1, Nav, and List */
+header {
+    background: #ffffff;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #777777; 
+    line-height: 15px;
+    border-bottom: solid 3px #dddddd;
+}
+
+.nav {
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    color: #d5d5d5;
+}
+
+h1 {
+    line-height: 30px;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    margin: 0px;     
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -35px;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+/* CSS for the body */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url(../images/circuit.png);
+}
+
+.wrapper {
+    max-width: 960px;
+    width: 96%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-top: 20px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-bottom: solid 2px #dddddd;
+}
+
+#bio{
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 150%;
+}
+
+#bio-image {
+    float: left;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for the footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #666666;
+    border-top: solid 5px #4aaaa5;
+}
+
+.copy {
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+
+/* CSS for the form */
+.textfield {
+    width: 95%;
+    border: #cccccc 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+textarea {
+    width: 95%;
+    display: block;
+    border: #cccccc 1px solid;
+    padding: 10px;
+    height: 5em;
+    margin: 10px;
+}
+input[type=submit]{
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+/* CSS for the portfolio images */
+.img-wrap {
+    width: 380px;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    /* background-image: url(../images/desk.jpeg); */
+    /* background-image: url(../images/grass.jpg); */
+    background-image: url(../images/white.jpeg);
+}
+
+.img-wrap p {
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    bottom: 15px;
+    width: 100%;
+    margin: 0;
+    line-height: 45px;
+    font-size: 30px;
+}
