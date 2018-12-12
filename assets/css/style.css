@@ -1,5 +1,6 @@
 /* CSS for the Header, H1, Nav, and List */
 header {
+    position: static;
     background: #ffffff;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -144,4 +145,98 @@ input[type=submit]{
     margin: 0;
     line-height: 45px;
     font-size: 30px;
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    /* wrapper and body */
+    header{
+        position: static;
+    }
+
+    
+    
+    .wrapper {
+        width: 100%;
+
+    /* about me */
+    }
+    #bio-image{
+        width: 75%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* portfolio images */
+    .img-wrap {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    
+/* wrapper and body */
+    .wrapper {
+        width: 100%;
+    }
+    
+    header{
+        position: static;
+    }
+
+    h1 {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul {
+        text-align: center;
+        list-style: none;
+        margin-top: 25px;
+
+    }
+
+    ul li {
+        text-align: center;
+        float: none;
+        clear: both;
+    }
+
+/* about me */
+    #bio-image {
+        width: 75%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+  
+/* form */
+    form {
+        width: 90%;
+    }
+/* portfolio images */
+  /*  .img-wrap {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }*/
 }
