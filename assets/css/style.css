@@ -157,8 +157,6 @@ input[type=submit]{
         position: static;
     }
 
-    
-    
     .wrapper {
         width: 100%;
 
@@ -184,15 +182,7 @@ input[type=submit]{
 
 @media screen and (max-width: 640px){
     
-/* wrapper and body */
-    .wrapper {
-        width: 100%;
-    }
-    
-    header{
-        position: static;
-    }
-
+/* Header */
     h1 {
         float: none;
         display: block;
@@ -204,7 +194,6 @@ input[type=submit]{
         text-align: center;
         list-style: none;
         margin-top: 25px;
-
     }
 
     ul li {
@@ -223,20 +212,20 @@ input[type=submit]{
     }
 
     p {
-        width: 100%;
+        width: 90%;
         padding: 10px;
         margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
   
 /* form */
     form {
         width: 90%;
-    }
-/* portfolio images */
-  /*  .img-wrap {
-        float: none;
-        display: block;
+        padding: 10px;
+        margin: 10px;
         margin-left: auto;
         margin-right: auto;
-    }*/
+    }
+
 }
